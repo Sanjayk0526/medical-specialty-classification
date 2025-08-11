@@ -1,0 +1,23 @@
+Here’s the `.gitignore` file for your project:
+
+```
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Model files
+*.joblib
+*.pkl
+
+# Kaggle credentials
+kaggle.json
+```
+
+This will make sure unnecessary files (cache, environments, large model files, and your private Kaggle API key) are not uploaded to GitHub.
